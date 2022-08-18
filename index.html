@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "landingPage.css" rel = "stylesheet">
+    <title>The tale of Uzumaki Naruto</title>
+    <link rel="icon" href= "resources/paifang2.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class = "backgroundContainer">
+        <video id = "background" muted autoplay loop> 
+            <source src = "resources/SASUKE【サスケ】~ ☯ NARUTO LOFI MUSIC ☯ Japanese Lofi HipHop Mix.mp4" type = "video/mp4"></src>
+        </video>
+
+        <audio id = "backgroundMusic" class = "bgm" src = "resources/touhouBackgroundMusicMixed2.mp3" loop></audio>
+    </div>
+
+    <div class = "headerBar">
+        <div class = "leftBarContainer">
+            <a class = "logoContainer" href = ".">
+                <div class = "logoImageContainer">
+                    <img class = "logoImage" src = "resources/anime icon _ Tumblr.jfif">
+                </div>
+                <div class = "logoHakurei">
+                    Mionochi
+                </div>
+            </a>
+            <img id = "audioController" src = "resources/audioControllerOn.png" onclick = "audioController(); imageChange();">
+        </div>
+        <div class="sourcesContainer">
+            
+            <a href="https://naruto.fandom.com/wiki/Narutopedia"><button class = "link" onclick = "showOrHide()">Source</button></a>
+            <div class = "dropdownContent">
+                <div class = "aboutCopyright">
+                    
+ </div> 
+            </div>
+        </div>
+        <div class = "rightBarContainer">
+            <div class = "rightBarStuff">
+                <a class = "about hamburgerStuff" href = "https://www.linkedin.com/in/aaditya-srivastava-b4564821b/">About</a>
+                <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+                <a class = "characters hamburgerStuff" href = "https://naruto.fandom.com/wiki/Category:Characters">Characters</a>
+                <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+                <a class = "music hamburgerStuff" href = "https://www.linkedin.com/in/aaditya-srivastava-b4564821b/">FAQ</a>
+                <img class = "separator hamburgerStuff" src = "resources/glowySquare.png">
+                <a class = "contact hamburgerStuff" href = https://www.linkedin.com/in/aaditya-srivastava-b4564821b/>Contact</a>
+            </div>
+            <div class = "menuHamburger"><div class = "menuHamburgerBtn"></div></div>
+        </div>
+    </div>
+
+    <div class = "layer1">
+        <div class = "layer1BgSources"><a class = "layer1BgSource1" href = "https://www.pixiv.net/en/users/25088958/illustrations" target = "_blank">Background illustration by: MerlimAmbrosuis</a><br><a class = "layer1BgSource2" href = "https://www.youtube.com/watch?v=7zG87aNNf20&list=PL_mGxmgVfH1ORtai56pXbkWdlfRjcl1K2&index=21" target = "_blank">Animated by: Live Wallpaper Centre</a></div>
+        <div class = "layer1Container">
+            <div class = "layer1Left">
+                <div class = "greetings">
+                    Welcome to 鳴門神社
+
+                </div>
+                <div class = "description">
+                    You say if you could fly, you’d never come back down.
+You only have eyes for that blue, blue sky.
+You’ve yet to learn what sadness is
+
+and are just now grasping what pain is like
+
+even the feeling i have for you.
+
+Must be expressed with words
+
+as you awaken from a dream into an unknown world
+
+Spread your wings and take flight.
+
+You say if you could fly, you’d never come back down.
+
+You aimed for those white, white clouds.
+
+You know if you can just make it through, you’ll find what you seek.
+
+So keep trying to break free, to that blue, blue sky...
+                </div>
+                <div class = "donateNowContainer">
+                    <a class = "donateNow" href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ">The Origin!</a>
+                </div>
+            </div>
+            <div class = "layer1Right">
+                <img class = "layer1Image" src = "resources/Saskue itachi.jfif">
+                <div class = "layer1Caption">
+                    “IT’S NOT THE FACE THAT MAKES SOMEONE A MONSTER; IT’S THE CHOICES THEY MAKE WITH THEIR LIVES.”
+                </div>
+                <a class = "layer1Source" href = "https://www.pixiv.net/en/users/1508165" target = "_blank">Illustration by: nono alias</a>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer2">
+        <div class = "layer2Bg">
+            <div class = "layer2Content">
+                <div class = "layer2Heading">
+                    Come enter the Naruto verse and witness the greatest story ever written 
+                      "The Tale Of Naruto Uzumaki"
+                </div>
+                <div class = "layer2InfoContainer">
+                    <div class = "gameContainer">
+                        <a class = "linkI" href = http://oceanofgames.com/naruto-shippuden-ultimate-ninja-storm-4-free-download-ofgv-1242427/><img class = "gameImage" src = "resources/download.png"></a>
+                        <div class = "gameSubtext">Games!</div>
+                    </div>
+                    <div class = "fanartContainer">
+                        <a class = "linkI" href = https://www.pixiv.net/en/tags/Naruto><img class = "fanartImage" src ="resources/damn.jpg"></a>
+                        <div class = "fanartSubtext">Fanart!</div>
+                        <div class = "fanartSource"></div>
+                    </div>
+                    <div class = "musicContainer">
+                        <a class = "linkI" href = https://allanime.site/music><video class = "musicVideo" src = "resources/Naruto Shippuden OP - Opening 3 60FPS.mp4" muted autoplay loop></video></a>
+                        <div class = "musicSubtext">Music!</div>
+                    </div>
+                    <div class = "heyMisterContainer">
+                        <a class = "linkI" href = https://allanime.site/manga><img class = "heyMisterImage" src = "resources/love.jpg"></a>
+                        <div class = "heyMisterSubtext">Mange!<span class = "stuff"></span></div>
+                    </div>
+                    <div class = "fumoContainer">
+                        <a class = "linkI" href = https://sumionochi.github.io/Odin-recipes/recipes/Secret%20Snack.html><img class = "fumoImage" src = "resources/Black & White Minimalist Magic Witch iOS Icons .png"></a>
+                        <div class = "fumoSubtext">My Favourite Snack</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer3">
+        <a class="layer3BgSource" href = https://4kwallpapers.com/black-dark/naruto-digital-art-black-background-amoled-5056.html target = "_blank">Background illustration by: nono alias</a>
+        <div class = "layer3Text">
+            <div class = "layer3Quote">
+                “THE MOST IMPORTANT THINGS AREN’T WRITTEN IN BOOKS.YOU HAVE TO LEARN THEM BY EXPERIENCING THEM YOURSELF.”
+            </div>
+            <div class = "layer3QuoteFrom">
+                -SAKURA HARUNO
+            </div>
+        </div>
+    </div>
+
+    <div class = "layer4">
+        <div class = "layer4Bg">
+            <div class = "layer4Content">
+                <div class = "layer4Text">
+                    <div class = "layer4TextHeading">
+                        Feeling Mesmerised but afraid to move forward and believe in it?!
+                    </div>
+                    <div class = "layer4TextSubtext">
+                        Remember Naruto once more- “If you don't like the hand that fate's dealt you with, fight for a new one.”
+                    </div>
+                </div>
+                <div class = "layer4ContactContainer">
+                    <a class = "layer4Contact" href = "#">
+                        Back.To.Top!
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "footerLayer">
+        <div class = "footerLayerBg">
+            <a class = "footerLayerAuthor" href = "https://github.com/sumionochi" target = "_blank">
+                By Mito 
+            </a>
+        </div>
+    </div>
+
+</body>
+
+<script src = "landingPage.js"></script>
+</html>
